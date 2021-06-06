@@ -29,8 +29,8 @@ https://drive.google.com/drive/folders/1G2D3PUQYgz1_ELdIel6zaWRKZTGUMFYH?usp=sha
 
 ### Links
 
--   Solution URL: [Github Solution](https://github.com/SauvikN/stats-preview-card-component)
--   Live Site URL: [Netlify Live Site](https://sad-sinoussi-708fb8.netlify.app/)
+-   Solution URL: [Github Solution](https://github.com/SauvikN/3-column-preview-card-component-main.git)
+-   Live Site URL: [Netlify Live Site](https://naughty-elion-fb63db.netlify.app/)
 
 ## My process
 
