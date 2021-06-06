@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    max-width: 1000px;
+}
+.category {
+    width: 100%;
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.category-header {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 40px;
+}
+
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+}
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.learn {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 2em;
+    display: inline-block;
+    margin-bottom: 100px;
+    border: 2px solid white;
+}
+
+.Sedans a {
+    color: hsl(31, 77%, 52%);
+}
+.SUVs a {
+    color: hsl(184, 100%, 22%);
+}
+.Luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+.learn:hover {
+    background-color: inherit;
+    color: white;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 1em 0px 5em 0px;
+}
+h2 {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+img {
+    margin: 20px 0px;
+}
+
+@media (min-width: 720px) {
+    .container {
+        flex-direction: row;
+    }
+    .category {
+        text-align: left;
+    }
+}
